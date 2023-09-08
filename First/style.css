@@ -1,0 +1,36 @@
+.container {
+    margin: auto;
+    width: 45%;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons_items {
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.buttons_items:hover {
+    color: white;
+    background-color: rgba(54, 67, 190, 0.71);
+    border: none;
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
+#message {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    color: green;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    visibility: hidden;
+}
