@@ -34,3 +34,8 @@
     font-family: Arial, sans-serif;
     visibility: hidden;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
